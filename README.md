@@ -1,18 +1,18 @@
 # Advanced Sales Forecasting 📈
 
-This project demonstrates an advanced time series forecasting workflow using a realistic sales dataset. It covers data preparation, exploratory analysis, decomposition, stationarity testing, and forecasting to understand and predict sales trends.
+This project demonstrates an advanced time series forecasting workflow using a realistic sales dataset. It focuses on understanding sales patterns through visualization, decomposition, and statistical analysis to support data-driven decision making.
 
 ## 📊 Project Overview
-Accurate sales forecasting helps businesses plan inventory, optimize operations, and make data-driven decisions. This notebook builds a forecasting pipeline to analyze historical sales patterns and generate insights.
+Sales forecasting is essential for planning inventory, managing resources, and identifying business trends. This notebook explores historical sales data to uncover trends, seasonality, and patterns using time series analysis techniques.
 
 ## ✨ Features
 - Realistic synthetic sales dataset
-- Data cleaning and preprocessing
+- Exploratory data analysis (EDA)
 - Time series visualization
-- Trend and seasonality decomposition
+- Trend and seasonal decomposition
 - Stationarity testing
-- Forecasting model implementation
-- Clear visual outputs
+- Forecasting using statistical models
+- Visual interpretation of results
 
 ## 🛠️ Tech Stack
 - Python
@@ -23,25 +23,22 @@ Accurate sales forecasting helps businesses plan inventory, optimize operations,
 - Jupyter Notebook
 
 ## 📂 Files Included
-- `Advanced_Sales_Forecasting.ipynb` — Main notebook with full workflow
-- `sales_data.csv` — Dataset used for analysis
+- `Advanced_Sales_Forecasting.ipynb` — Notebook containing full analysis workflow
+- `sales_data.csv` — Dataset used in the project
 
-## ▶️ How to Run
-1. Clone this repository
-2. Install dependencies:
-   ```bash
-   pip install pandas numpy matplotlib statsmodels
-3.Open the notebook in Jupyter
-4.Run cells sequentially
+## 📈 Key Insights
+- Identifies underlying sales trends over time
+- Detects seasonal patterns in the data
+- Confirms stationarity for modeling
+- Demonstrates forecasting capability
 
-## 📈 Results
-The project identifies underlying trends and seasonal patterns in sales data and demonstrates how forecasting models can be used to predict future sales behavior.
+## 🚀 Future Improvements
+- Add advanced forecasting models (SARIMA, Prophet, Machine Learning approaches)
+- Perform model evaluation with metrics (MAE, RMSE)
+- Automate forecasting pipeline
+- Build an interactive dashboard
 
-##🚀 **Future Improvements**
--Add advanced models (SARIMA / Prophet / ML models)
--Hyperparameter tuning
--Model performance comparison
--Deployment as a dashboard
+## 👨‍💻 Author
+Tanmay Koli  
+B.Tech Data Science student passionate about building practical data science projects.
 
-##👨‍💻 **Author**
-Tanmay Koli — B.Tech Data Science student building practical data science projects.
